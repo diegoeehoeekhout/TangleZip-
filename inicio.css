@@ -1,0 +1,56 @@
+#inicio {
+    color: var(--text);
+    padding: 24px;
+    overflow-y: auto;
+}
+
+#inicio>h2 {
+    font-size: 50px;
+    margin: 20px 0px 14px;
+}
+
+.content-header {
+    display: flex;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--text);
+}
+
+.content-header>h5 {
+    margin: 0px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.content-header>button {
+    color: var(--tzcolor);
+}
+
+.content-barra {
+    display: flex;
+    margin: 18px 0px;
+    overflow-y: auto;
+}
+
+.content-barra > .item {
+    flex: 0 0 240px;
+    margin-right: 20px;
+}
+
+.content-barra > .item > img {
+    width: 90%;
+}
+
+.content-barra > .item > h5 {
+    margin: 4px 0px;
+    font-size: 16px;
+}
+
+.content-barra > .item > p {
+    margin: 4px 0px;
+    font-size: 12px;
+}
+
+.content-barra > .item > p.subtitle{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

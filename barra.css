@@ -1,0 +1,74 @@
+#barra {
+    display: flex;
+    padding: 12px;
+    color: var(--text);
+}
+
+#barra button {
+    color: #7A3AB0;
+    font-size: 18px;
+}
+
+#usuario {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+#usuario > a {
+    text-decoration: underline;
+}
+
+div#usuario > * {
+    margin: 3px;
+}
+
+#iniciosesion {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.btn {
+    width: 100%;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 8px;
+    margin-bottom: 1px;
+    margin-right: 15px
+}
+
+.btn-light {
+    background-color: black;
+   
+    color:white;
+    padding: 10px;
+}
+
+.btn-dark {
+    background-color: white;
+    color: black;
+    border: 5px;
+    border-color: var(--tzcolor);
+    padding: 10px;
+
+}
+
+#barra > #search {
+    border-radius: 16px;
+    background: var(--text);
+    color: var(--tzcolor);
+    align-items: center;
+    display: flex;
+    padding: 0px 8px; 
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+#barra > #search > input {
+    background: none;
+    border: 3px;
+    margin-left: 4px;
+    outline: none;
+}

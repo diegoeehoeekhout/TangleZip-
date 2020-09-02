@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="barra.css">
+    <link rel="stylesheet" href="barralateral.css">
+    <link rel="stylesheet" href="play.css">
+    <link rel="stylesheet" href="table.css">
+
+    <title>TangleZip</title>
+</head>
+
+<body>
+    <div id="barralateral">
+        <ull id="inicio-nav">
+            <li><a> <i class="fas fa-home"></i>
+                    <p>Inicio</p>
+                </a></li>
+            <li><a> <i class="fas fa-book"></i>
+                    <p>Explorar</p>
+                </a></li>
+            <li><a> <i class="fas fa-broadcast-tower"></i>
+                    <p>Tendencias</p>
+                </a></li>
+        </ull>
+        <h3>Tu biblioteca</h3>
+        <ul id="biblioteca-nav">
+            <li><a>Hecho para ti</a></li>
+            <li><a>Historial</a></li>
+            <div class="content-header "> </div>
+            <li><a>Podcast Favoritos</a></li>
+            <li><a>Videos</a></li>
+        </ul>
+        <h3>Suscripciones</h3>
+        <ul id="listareproduccion-nav">
+            <li><a>Podcast 1</a></li>
+            <li><a>Podcast 2</a></li>
+            <li><a>Podcast 3</a></li>
+        </ul>
+        <button>Lista de repoducción <i class="fas fa-plus-circle"></i></button>
+    </div>
+    <div id="barra">
+        <button><i class="fas fa-chevron-left"></i></button>
+        <button><i class="fas fa-chevron-right"></i></button>
+        <div id="search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Buscar">
+        </div>
+        <div id="usuario">
+            <i class="fas fa-user"></i>
+            <p><a>usuario1</a></p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+    <div id="inicio">
+        <h2>Historial</h2>
+        <div id="content">
+                <table>
+                  <tr>
+                    <th>Nombre del Podscast</th>
+                    <th>Nombre del episodio</th>
+                    <th>Tiempo</th>
+                  </tr>
+                  <tr>
+                    <td>Escuela de Nada</td>
+                    <td>Propósito de la vida</td>
+                    <td>$52:43</td>
+                  </tr>
+                  <tr>
+                    <td>Joe Rogan</td>
+                    <td>Elon Musk</td>
+                    <td>2:00:5</td>
+                  </tr>
+                  <tr>
+                    <td>Escuela de Nada</td>
+                    <td>Peores Profesiones</td>
+                    <td>$46:48</td>
+                  </tr>
+                  <tr>
+                    <td>Lucas y Socias una vez mas </td>
+                    <td>Caputulo 27</td>
+                    <td>41:39</td>
+                  </tr>
+                </table>
+            </div>          
+        </div>
+    </div>
+    <div id="play">
+        <div id="track-card">
+            <img src="https://secureimg.stitcher.com/feedimagesplain328/13886.jpg">
+            <h5><a>Nombre Episodio</a> <i class="fas fa-heart"></i></h5>
+            <p><a>Nombre Podcast</a></p>
+        </div>
+        <div id="hub">
+            <div id="controls">
+                <button><i class="fas fa-random"></i></button>
+                <button><i class="fas fa-step-backward"></i></button>
+                <button><i class="fas fa-play"></i></button>
+                <button><i class="fas fa-step-forward"></i></button>
+                <button><i class="fas fa-redo"></i></button>
+            </div>
+            <div id="seeker">
+                <p>52:42</p>
+                <input type="range" min="1" max="100" value="50">
+                <p>52:59</p>
+            </div>
+        </div>
+        <div id="side-buttons">
+            <button><i class="fas fa-align-left"></i></button>
+            <button><i class="fas fa-desktop"></i></button>
+            <button><i class="fas fa-volume-up"></i></button>
+            <div id="seeker">
+                <input type="range" min="1" max="100" value="50">
+            </div>
+        </div>
+    </div>
+    <div id="background"></div>
+</body>
+
+</html>

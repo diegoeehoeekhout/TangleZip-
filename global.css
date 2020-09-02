@@ -1,0 +1,59 @@
+:root {
+    --black: #111111;
+    --light-black: #282828;
+    --top-grad: #404040;
+    --muted: #9a9a9a;
+    --text: #f2f2f2;
+    --accent: #1ed760;
+    --tzcolor: #6922A6;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-rows: 50px 1fr 100px;
+    grid-template-columns: 200px 1fr;
+    margin: 0px;
+}
+
+#barra {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#barralateral {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#inicio {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#play {
+    grid-column: 1/3;
+}
+#resgistrategratis {
+    grid-column: 1/3;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+#background {
+    grid-column: 2;
+    grid-row: 1/3;
+    background-image: linear-gradient(to bottom, var(--top-grad) 0%, var(--black) 25%);
+    z-index: -10;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
